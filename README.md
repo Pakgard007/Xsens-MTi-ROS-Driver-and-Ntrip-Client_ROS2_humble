@@ -15,6 +15,28 @@ This repository provides a **ROS 2 driver** for the **Xsens MTi-680G**, MTi-8, M
 > ✅ Based on Xsens Device API 2025.0 and tested on **Ubuntu 22.04.3 LTS**
 
 ---
+## 🛠️ Device Configuration in MT Manager
+
+### ✅ Output Configuration for ROS2 & RTK
+Make sure to enable these:
+- UTC Time ✔️
+- Status Word ✔️
+- Latitude and Longitude ✔️
+- Velocity ✔️
+
+📷 Example:
+![Output Configuration](images/MTi-680_Output_Configuration.png)
+
+---
+
+### ⚙️ Device Settings for GNSS and High Baudrate
+- Baudrate: 921600 (to avoid overflow)
+- GNSS Platform: u-Blox ZED-F @ 230400
+- Filter Settings: General_RTK
+- Set your GNSS Lever Arm precisely
+
+📷 Example:
+![Device Settings](images/MTi-680_Device_Settings.png)
 
 ## 🚀 Installation
 
