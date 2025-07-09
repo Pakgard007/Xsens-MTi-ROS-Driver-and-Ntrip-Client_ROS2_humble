@@ -18,25 +18,26 @@ This repository provides a **ROS 2 driver** for the **Xsens MTi-680G**, MTi-8, M
 ## 🛠️ Device Configuration in MT Manager
 
 ### ✅ Output Configuration for ROS2 & RTK
-Make sure to enable these:
+Make sure to enable:
 - UTC Time ✔️
 - Status Word ✔️
 - Latitude and Longitude ✔️
 - Velocity ✔️
 
 📷 Example:
-![Output Configuration]([images/MTi-680_Output_Configuration.png](https://github.com/Pakgard007/Xsens-MTi-ROS-Driver-and-Ntrip-Client_ROS2_humble/blob/main/MTi-680_Output_Configuration.png))
+![Output Configuration](https://raw.githubusercontent.com/Pakgard007/Xsens-MTi-ROS-Driver-and-Ntrip-Client_ROS2_humble/main/MTi-680_Output_Configuration.png)
 
 ---
 
 ### ⚙️ Device Settings for GNSS and High Baudrate
-- Baudrate: 921600 (to avoid overflow)
-- GNSS Platform: u-Blox ZED-F @ 230400
-- Filter Settings: General_RTK
-- Set your GNSS Lever Arm precisely
+To avoid data overflow and ensure GNSS accuracy:
+- Baudrate: 921600 (high rate)
+- GNSS: u-Blox ZED-F @ 230400
+- Filter: General_RTK
+- Set GNSS Lever Arm correctly
 
 📷 Example:
-![Device Settings](images/MTi-680_Device_Settings.png)
+![Device Settings](https://raw.githubusercontent.com/Pakgard007/Xsens-MTi-ROS-Driver-and-Ntrip-Client_ROS2_humble/main/MTi-680_Device_Settings.png)
 
 ## 🚀 Installation
 
