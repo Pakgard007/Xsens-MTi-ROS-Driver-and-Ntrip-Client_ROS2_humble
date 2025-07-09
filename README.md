@@ -23,7 +23,7 @@ This repository provides a **ROS 2 driver** for the **Xsens MTi-680G**, MTi-8, M
 ### 1. Clone the ROS2 Branch
 
 ```bash
-git clone --branch ros2 https://github.com/xsenssupport/Xsens_MTi_ROS_Driver_and_Ntrip_Client.git
+git clone --branch ros2 https://github.com/Pakgard007/Xsens-MTi-ROS-Driver-and-Ntrip-Client_ROS2_humble
 ```
 
 ### 2. Install Dependencies
