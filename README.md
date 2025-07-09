@@ -25,7 +25,7 @@ Make sure to enable these:
 - Velocity ✔️
 
 📷 Example:
-![Output Configuration](images/MTi-680_Output_Configuration.png)
+![Output Configuration]([images/MTi-680_Output_Configuration.png](https://github.com/Pakgard007/Xsens-MTi-ROS-Driver-and-Ntrip-Client_ROS2_humble/blob/main/MTi-680_Output_Configuration.png))
 
 ---
 
